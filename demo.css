@@ -260,10 +260,9 @@ a.te-next:active{
 	position: absolute;
 	top: 30px;
 	left: 50%;
-	width: 259px;
-	height: 427px;
-	margin-left: -129px;
-	background: transparent url(../images/shadow.png) no-repeat center bottom;
+	width: 230px;
+	height: 297px;
+	margin-left: -115px;
 }
 .te-wrapper{
 	position: relative;
