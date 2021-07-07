@@ -185,7 +185,7 @@ p.codrops-demos a.current-demo:hover{
 */
 /* Some common styles for the transition effect */
 .te-container{
-	width: 329px;
+	width: 230px;
 	margin: 0px auto 0px auto;
 }
 .te-controls{
@@ -195,7 +195,7 @@ p.codrops-demos a.current-demo:hover{
 .te-container select, a.te-next{
 	display: inline-block;
 	border: 1px solid #999;
-	padding: 5px 20px 5px 5px;
+	padding: 0px 0px 0px 0px;
 	font-size: 15px;
 	color: #444;
 	line-height: 18px;
@@ -234,8 +234,8 @@ p.codrops-demos a.current-demo:hover{
 }
  a.te-next{
 	float: right;
-	margin-top: 5px;
-	padding: 5px 10px;
+	margin-top: 0px;
+	padding: 0px 0px 0px 0px;
 	font-weight: bold;
 	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
@@ -260,13 +260,21 @@ a.te-next:active{
 	position: absolute;
 	top: 30px;
 	left: 50%;
-	width: 373px;
-	height: 470px;
-	margin-left: -186px;
+	width: 259px;
+	height: 427px;
+	margin-left: -129px;
 	background: transparent url(../images/shadow.png) no-repeat center bottom;
 }
 .te-wrapper{
 	position: relative;
-	width: 329px;
-	height: 425px;
+	width: 230px;
+	height: 297px;
+}
+.te-wrapper img{
+    position: absolute;
+    height: 297px;
+    width: 230px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
