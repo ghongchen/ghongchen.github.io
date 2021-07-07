@@ -185,7 +185,7 @@ p.codrops-demos a.current-demo:hover{
 */
 /* Some common styles for the transition effect */
 .te-container{
-	width: 230px;
+	width: 382px;
 	margin: 0px auto 0px auto;
 }
 .te-controls{
@@ -260,19 +260,19 @@ a.te-next:active{
 	position: absolute;
 	top: 30px;
 	left: 50%;
-	width: 230px;
-	height: 297px;
-	margin-left: -115px;
+	width: 382px;
+	height: 495px;
+	margin-left: -191px;
 }
 .te-wrapper{
 	position: relative;
-	width: 230px;
-	height: 297px;
+	width: 382px;
+	height: 495px;
 }
 .te-wrapper img{
     position: absolute;
-    height: 297px;
-    width: 230px;
+    height: 495px;
+    width: 382px;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
