@@ -8,8 +8,8 @@
 .te-cover,
 .te-transition{
 	position: absolute;
-	width: 329px;
-	height: 425px;
+	width: 382px;
+	height: 495px;
 	top: 0px;
 	left: 0px;
 }
@@ -52,10 +52,10 @@
 }
 @-webkit-keyframes example2Front{
 	0% { -webkit-transform: translateX(0); }
-	100% { -webkit-transform: translateX(-329px); }
+	100% { -webkit-transform: translateX(-382px); }
 }
 @-webkit-keyframes example2Back{
-	0% { -webkit-transform: translateX(329px); }
+	0% { -webkit-transform: translateX(382px); }
 	100% { -webkit-transform: translateX(0px); }
 }
 /***************** example3 ********************/
