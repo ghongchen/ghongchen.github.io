@@ -31,7 +31,7 @@ $(function() {
 			// check for support
 			hasPerspective	= Modernizr.csstransforms3d,
 			init			= function() {
-				type = 'te-flip3';
+				//type = 'te-flip3';
 				$teTransition.addClass( type );
 				$navNext.on( 'click', function( event ) {
 					
